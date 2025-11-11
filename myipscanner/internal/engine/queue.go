@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/bepass-org/warp-plus/myipscanner/internal/statute"
+	"github.com/linsernottaken/warp-plus/myipscanner/internal/statute"
 )
 
 type IPQueue struct {

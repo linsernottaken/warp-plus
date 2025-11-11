@@ -9,12 +9,12 @@ import (
 	"net/netip"
 	"path"
 
-	"github.com/bepass-org/warp-plus/iputils"
-	"github.com/bepass-org/warp-plus/psiphon"
-	"github.com/bepass-org/warp-plus/warp"
-	"github.com/bepass-org/warp-plus/wireguard/tun"
-	"github.com/bepass-org/warp-plus/wireguard/tun/netstack"
-	"github.com/bepass-org/warp-plus/wiresocks"
+	"github.com/linsernottaken/warp-plus/iputils"
+	"github.com/linsernottaken/warp-plus/psiphon"
+	"github.com/linsernottaken/warp-plus/warp"
+	"github.com/linsernottaken/warp-plus/wireguard/tun"
+	"github.com/linsernottaken/warp-plus/wireguard/tun/netstack"
+	"github.com/linsernottaken/warp-plus/wiresocks"
 )
 
 const singleMTU = 1330

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bepass-org/warp-plus/myipscanner/internal/engine"
-	"github.com/bepass-org/warp-plus/myipscanner/internal/statute"
-	"github.com/bepass-org/warp-plus/warp"
+	"github.com/linsernottaken/warp-plus/myipscanner/internal/engine"
+	"github.com/linsernottaken/warp-plus/myipscanner/internal/statute"
+	"github.com/linsernottaken/warp-plus/warp"
 	"github.com/noql-net/certpool"
 )
 

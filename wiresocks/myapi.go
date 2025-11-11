@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bepass-org/warp-plus/myipscanner"
-	"github.com/bepass-org/warp-plus/proxy/pkg/mixed"
-	"github.com/bepass-org/warp-plus/proxy/pkg/statute"
-	"github.com/bepass-org/warp-plus/warp"
-	"github.com/bepass-org/warp-plus/wireguard/tun/netstack"
+	"github.com/linsernottaken/warp-plus/myipscanner"
+	"github.com/linsernottaken/warp-plus/proxy/pkg/mixed"
+	"github.com/linsernottaken/warp-plus/proxy/pkg/statute"
+	"github.com/linsernottaken/warp-plus/warp"
+	"github.com/linsernottaken/warp-plus/wireguard/tun/netstack"
 	"github.com/sagernet/sing/common/buf"
 )
 

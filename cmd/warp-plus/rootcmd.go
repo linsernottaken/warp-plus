@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/adrg/xdg"
-	"github.com/bepass-org/warp-plus/app"
-	p "github.com/bepass-org/warp-plus/psiphon"
-	"github.com/bepass-org/warp-plus/warp"
-	"github.com/bepass-org/warp-plus/wiresocks"
+	"github.com/linsernottaken/warp-plus/app"
+	p "github.com/linsernottaken/warp-plus/psiphon"
+	"github.com/linsernottaken/warp-plus/warp"
+	"github.com/linsernottaken/warp-plus/wiresocks"
 	"github.com/peterbourgon/ff/v4"
 	"github.com/peterbourgon/ff/v4/ffval"
 )

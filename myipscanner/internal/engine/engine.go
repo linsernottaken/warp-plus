@@ -7,9 +7,9 @@ import (
 	"net/netip"
 	"sync"
 
-	"github.com/bepass-org/warp-plus/myipscanner/internal/iterator"
-	"github.com/bepass-org/warp-plus/myipscanner/internal/ping"
-	"github.com/bepass-org/warp-plus/myipscanner/internal/statute"
+	"github.com/linsernottaken/warp-plus/myipscanner/internal/iterator"
+	"github.com/linsernottaken/warp-plus/myipscanner/internal/ping"
+	"github.com/linsernottaken/warp-plus/myipscanner/internal/statute"
 )
 
 type Engine struct {

@@ -6,7 +6,7 @@ import (
 	"net/netip"
 	"sync"
 
-	"github.com/bepass-org/warp-plus/wireguard/tun/netstack"
+	"github.com/linsernottaken/warp-plus/wireguard/tun/netstack"
 )
 
 func NewVtunUDPForwarder(ctx context.Context, localBind netip.AddrPort, dest string, tnet *netstack.Net, mtu int) (netip.AddrPort, error) {

@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/bepass-org/warp-plus/myipscanner/internal/statute"
+	"github.com/linsernottaken/warp-plus/myipscanner/internal/statute"
 )
 
 // Minimal ICMP echo implementation.

@@ -6,9 +6,9 @@ import (
 	"log/slog"
 	"net/netip"
 
-	"github.com/bepass-org/warp-plus/ipscanner/iterator"
-	"github.com/bepass-org/warp-plus/ipscanner/ping"
-	"github.com/bepass-org/warp-plus/ipscanner/statute"
+	"github.com/linsernottaken/warp-plus/ipscanner/iterator"
+	"github.com/linsernottaken/warp-plus/ipscanner/ping"
+	"github.com/linsernottaken/warp-plus/ipscanner/statute"
 )
 
 type Engine struct {

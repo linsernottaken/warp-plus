@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/bepass-org/warp-plus/myipscanner"
+	"github.com/linsernottaken/warp-plus/myipscanner"
 )
 
 func main() {

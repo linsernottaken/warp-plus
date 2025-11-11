@@ -1,6 +1,6 @@
 package myapi
 
-import "github.com/bepass-org/warp-plus/warp"
+import "github.com/linsernottaken/warp-plus/warp"
 
 var WarpPrefixes = warp.APIWarpPrefixes
 var WarpPorts = warp.APIGetWarpPorts

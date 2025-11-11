@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/netip"
 
-	"github.com/bepass-org/warp-plus/ipscanner/statute"
+	"github.com/linsernottaken/warp-plus/ipscanner/statute"
 )
 
 type Ping struct {

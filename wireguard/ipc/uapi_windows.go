@@ -8,7 +8,7 @@ package ipc
 import (
 	"net"
 
-	"github.com/bepass-org/warp-plus/wireguard/ipc/namedpipe"
+	"github.com/linsernottaken/warp-plus/wireguard/ipc/namedpipe"
 	"golang.org/x/sys/windows"
 )
 

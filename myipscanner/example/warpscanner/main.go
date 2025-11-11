@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/bepass-org/warp-plus/myipscanner"
-	"github.com/bepass-org/warp-plus/myipscanner/internal/statute"
-	"github.com/bepass-org/warp-plus/warp"
+	"github.com/linsernottaken/warp-plus/myipscanner"
+	"github.com/linsernottaken/warp-plus/myipscanner/internal/statute"
+	"github.com/linsernottaken/warp-plus/warp"
 	"github.com/fatih/color"
 	"github.com/rodaine/table"
 )
