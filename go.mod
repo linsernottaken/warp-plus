@@ -1,4 +1,4 @@
-module github.com/bepass-org/warp-plus
+module github.com/linsernottaken/warp-plus
 
 go 1.24
 
