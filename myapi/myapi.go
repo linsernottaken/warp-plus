@@ -1,6 +1,7 @@
 package myapi
 
 import (
+	"github.com/linsernottaken/warp-plus/app"
 	"github.com/linsernottaken/warp-plus/myipscanner"
 	"github.com/linsernottaken/warp-plus/psiphon"
 	"github.com/linsernottaken/warp-plus/warp"
@@ -43,3 +44,9 @@ var Countries = psiphon.APICountries
 
 // ///////// wiresocks package
 type ScanOptions = wiresocks.APIScanOptions
+
+// ///////// app package
+type WarpOptions = app.APIWarpOptions
+type PsiphonOptions = app.APIPsiphonOptions
+
+var RunWarp = app.APIRunWarp
