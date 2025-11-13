@@ -2,11 +2,13 @@ package myapi
 
 import (
 	"github.com/linsernottaken/warp-plus/myipscanner"
+	"github.com/linsernottaken/warp-plus/psiphon"
 	"github.com/linsernottaken/warp-plus/warp"
+	"github.com/linsernottaken/warp-plus/wiresocks"
 )
 
 // //////////// warp package
-type Identity = warp.Identity
+type Identity = warp.APIIdentity
 
 var WarpPrefixes = warp.APIWarpPrefixes
 var WarpPorts = warp.APIGetWarpPorts
@@ -35,3 +37,9 @@ var WithTestEndpointPorts = myipscanner.WithTestEndpointPorts
 var WithCidrList = myipscanner.WithCidrList
 var WithCustomEndpoints = myipscanner.WithCustomEndpoints
 var NewScanner = myipscanner.NewScanner
+
+// ////////// psiphon package
+var Countries = psiphon.APICountries
+
+// ///////// wiresocks package
+type ScanOptions = wiresocks.APIScanOptions
